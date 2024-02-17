@@ -1,0 +1,72 @@
+@model Booking
+@{
+    Layout = null; // Set the layout to null if you don't want to use a shared layout for this view.
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>redBus</title>
+</head>
+<body>
+ <style>
+         
+        .travel-form {
+    max-width: 600px;
+    margin: 50px auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#travelForm{
+     display: flex;
+    flex-direction: column;
+}
+#form-label{
+    margin-top: 10px;
+}
+.travel-form.input {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+#form-button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+    </style>
+    <div class="travel-form" >
+        <h2>AP Booking</h2>
+        <form id="travelForm" method="post">
+            <label id="form-label" for="Username">User Name:</label>
+            <input id="form-label" asp-for="Username" value="@Context.Session.GetString("UserName")"  readonly>
+            <label id="form-label" for="from">From:</label>
+            <input id="form-label" asp-for="From" type="text" id="from" name="from" required>
+
+            <label id="form-label" for="to">To:</label>
+            <input id="form-label" asp-for="To" type="text" id="to" name="to" required>
+
+            <label id="form-label" for="travelDate">Travel Date:</label>
+            <input id="form-label" asp-for="Date" type="date" required>
+
+            <button id="form-button" type="submit">Submit</button>
+        </form>
+    </div>
+   
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+</body>
+</html>

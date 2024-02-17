@@ -1,0 +1,81 @@
+@{
+    Layout = null; // Set the layout to null if you don't want to use a shared layout for this view.
+}
+@model CancelTicket
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Travel Date</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        label {
+            color: #495057;
+            font-weight: bold;
+        }
+
+        #form-label {
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="date"] {
+            width: 100%;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+    <!-- Add any additional CSS files or styles here -->
+</head>
+<body>
+
+    <div class="container">
+        <h2>Change Travel Date</h2>
+        
+        <form method="post">
+            <div class="form-group">
+                <label id="form-label" for="Username">User Name:</label>
+                <input id="form-label" asp-for="Username" value="@Context.Session.GetString("UserName")" class="form-control" readonly>
+                <label for="newDate" id="form-label">Cancel Travel Date:</label>
+                <input type="date" class="form-control" asp-for="Date" id="newDate" name="newDate" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" onclick="changeDate()">Cancel Ticket</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and other JS libraries if needed -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Bq5s2Xu2FpTJcA4PnDR0jzQf4+6aa6ApmPbsTDbkdeiUnQ27z3jO2PwOJKd4aZSm" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Add any additional JS files or scripts here -->
+    <script>
+        function changeDate() {
+            // You can add JavaScript logic here to handle the date change
+            // For example, you can use AJAX to send the new date to the server
+            alert('Date changed successfully!');
+        }
+    </script>
+
+</body>
+</html>
