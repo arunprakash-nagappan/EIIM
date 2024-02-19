@@ -41,8 +41,9 @@
                             </div>
                             @* <a asp-controller="Home" asp-action="Signup">Signup</a>
                             <br> <br> *@
-                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="submit" class="btn btn-primary">Next</button>
                             <p style="color:red">@ViewBag.message</p>
+                            <p style="color:green">If you are new user please do Sign Up</p>
                             <a href="@Url.Action("Signup", "Home")" class="btn btn-secondary">Sign Up</a>
                         </form>
                     </div>

@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = travel
 build_property.RootNamespace = travel
-build_property.ProjectDir = c:\Users\arun.nagappan\Desktop\eiim\EIIM\travel\
+build_property.ProjectDir = C:\Users\arun.nagappan\Desktop\travel\travel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\arun.nagappan\Desktop\eiim\EIIM\travel
+build_property.MSBuildProjectDirectory = C:\Users\arun.nagappan\Desktop\travel\travel
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Booking.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Booking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/CancelTicket.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/CancelTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW5jZWxUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/CancelTicketSucess.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/CancelTicketSucess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYW5jZWxUaWNrZXRTdWNlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Index.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Login.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Opening.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Opening.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcGVuaW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Privacy.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Signup.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/SignUpSuccess.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/SignUpSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXBTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Home/Ticket.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Home/Ticket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Shared/Error.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Shared/_validuser.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Shared/_validuser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF92YWxpZHVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/_ViewImports.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/_ViewStart.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/arun.nagappan/Desktop/eiim/EIIM/travel/Views/Shared/_Layout.cshtml]
+[C:/Users/arun.nagappan/Desktop/travel/travel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-24kdbox40i
