@@ -1,0 +1,61 @@
+@model Signup
+@{
+    Layout = null; // Set the layout to null if you don't want to use a shared layout for this view.
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .signup-container {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center signup-container">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h4>Sign Up</h4>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" id="signupForm" onsubmit="">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" asp-for="Name" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" asp-for="Username" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" asp-for="Password" class="form-control" id="password" name="password" 
+                                       pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@@$!%*?&])[A-Za-z\d@@$!%*?&]{15,}"
+                                       title="Password must have at least one small letter, one capital letter, one number, one special character (@@, $, !, %, *, ?, or &), and a minimum length of 15 characters."
+                                       required>
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

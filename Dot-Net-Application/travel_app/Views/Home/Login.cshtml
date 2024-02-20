@@ -1,0 +1,62 @@
+@{
+    Layout = null; // Set the layout to null if you don't want to use a shared layout for this view.
+}
+@model Login
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .login-container {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center login-container">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h4>Login</h4>
+                    </div>
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <label for="username">Username:</label>
+                                <input type="text" asp-for="Username" class="form-control" id="username" name="username" required>
+                                <small id="usernameError" class="form-text text-danger"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" asp-for="Password" class="form-control" id="password" name="password" required>
+                                <small id="passwordError" class="form-text text-danger"></small>
+                            </div>
+                            @* <a asp-controller="Home" asp-action="Signup">Signup</a>
+                            <br> <br> *@
+                            <button type="submit" class="btn btn-primary">Next</button>
+                            <p style="color:red">@ViewBag.message</p>
+                            <p style="color:green">If you are new user please do Sign Up</p>
+                            <a href="@Url.Action("Signup", "Home")" class="btn btn-secondary">Sign Up</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+     
+</body>
+</html>
